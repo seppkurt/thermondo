@@ -1,0 +1,416 @@
+reference_number,vendor,customer_name,street_address,contact_phone,postcode_region,commissioning_date,connectivity,service_tier,last_service_visit
+TH-02085,OEM_A,Holger Thiemann,Erlenring 5,redacted,40,2025-09-24,connected,optimize,
+th-02232,OEM_B,Ingrid Radtke,Mühlenstraße 94,redacted,12,22.04.2024,unknown,free,2025-02-26
+02327,OEM_C ,Wiebke Hillebrand,Lindenhof 99b,redacted,90,04.07.2024,not_connected,free,2025-08-08
+TH-02095-1,OEM A,Holger Lindemann,Ostpreußenweg 34,redacted,81,2024-08-11,connected,care_plus,2025-07-02
+  TH-02257 ,oem-b,Rainer Niehaus,Mühlenstraße 36a,redacted,22,2025-06-14,connected,free,
+TH-02245,oem-b,Ahmet Gebhardt,Dorfstraße 89,redacted,20,2025-04-12,connected,care,2025-02-28
+TH-02065,oem a,Bettina Grabowski,Ostpreußenweg 59,redacted,90,02.05.2024,connected,free,2026-02-04
+TH-02292,C,Ahmet Hillebrand,Gartenstraße 72,redacted,12,2024-08-16,connected,care,2024-12-12
+  TH-02037 ,OEM A,Ahmet Vollmer,Feldmark 73,redacted,50,24.03.2025,connected,free,
+th-02101,OEM A,Eva Sassenberg,Schulstraße 20,redacted,13,2024-09-08,connected,care,2024-12-27
+TH-02016-1,OEM_A,Andreas Niehaus,Lindenhof 35a,redacted,70,2023-02-24,connected,free,2025-01-02
+TH-02250,OEM B,Claudia Fährmann,Feldmark 6b,redacted,13,2025-09-15,connected,free,2025-03-23
+TH-02125,OEM A,Claudia Jansen,Buchenkamp 99,redacted,13,03.06.2025,connected,care,
+TH-02290,OEM B,Elke Ebeling,Waldsaum 124,redacted,20,05.10.2025,connected,care,
+th-02092,OEM_A,Jörg Jansen,Feldmark 111,redacted,30,2023-12-09,unknown,care,
+TH-02308-1,C,Gudrun Hillebrand,Tannenweg 123,redacted,90,22.04.2025,connected,free,2026-03-09
+TH 02083,A,Frank Vollmer,Lindenhof 86b,redacted,12,2025-12-08,connected,free,2025-05-07
+th-02011,OEM A,Lothar Ebeling,Gartenstraße 42b,redacted,40,2025-02-02,connected,free,2025-04-10
+TH-02296-1,oem c,Gudrun Vollmer,Kirchweg 8a,redacted,22,19.06.2023,connected,care,2024-10-05
+th-02315,oem c,Holger Sassenberg,Buchenkamp 18,redacted,70,2023-03-25,not_connected,free,2025-09-21
+TH-02041-1,A,Ahmet Fährmann,Waldsaum 67b,redacted,30,2023-10-22,not_connected,care,2025-02-08
+02384,OEM_C ,Jörg Uhlig,Ostpreußenweg 33,redacted,70,2024-06-21,connected,care,
+TH-02161,OEM_B,Frank Kaminski,Rosenkamp 137,redacted,50,25.02.2023,connected,care,
+TH-02163,B,Elke Oestreich,Birkenallee 18a,redacted,12,2025-05-08,not_connected,care,2025-01-06
+TH-02324,oem c,Gudrun Brinkmann,Pappelweg 106,redacted,04,22.01.2026,connected,care_plus,
+TH-02099,OEM_A,Elke Radtke,Hauptstraße 45b,redacted,10,2026-01-18,connected,optimize,2026-01-27
+  TH-02203 ,OEM B,Petra Pfefferle,Im Winkel 124b,redacted,90,2025-10-15,not_connected,free,
+TH-02108-1,OEM A,Ingrid Ahrens,Tannenweg 136,redacted,80,2023-03-01,not_connected,optimize,2025-11-25
+TH-02247,OEM_B,Gerhard Ebeling,Schulstraße 65a,redacted,81,16.05.2025,connected,free,2024-07-04
+TH-02167,OEM B,Gudrun Weinhold,Feldmark 11,redacted,10,19.08.2024,not_connected,optimize,
+02158,OEM B,Bogdan Lindemann,Schulstraße 60,redacted,13,22.12.2024,connected,optimize,2026-01-30
+TH-02138,oem a,Manuela Weinhold,Dorfstraße 20,redacted,44,02.11.2024,connected,free,
+02255,oem-b,Norbert Dettmer,Uferstraße 22a,redacted,44,20.02.2024,connected,care,2024-12-04
+  TH-02059 ,OEM_A,Katrin Radtke,Buchenkamp 86b,redacted,70,2025-10-15,unknown,optimize,2024-09-29
+th-02103,OEM A,Sabine Thiemann,Buchenkamp 62,redacted,40,15.04.2025,connected,care,2025-06-21
+  TH-02152 ,OEM_B,Ingrid Grabowski,Kirchweg 45a,redacted,30,12.01.2023,connected,free,2025-12-30
+02162,OEM_B,Andreas Ahrens,Uferstraße 89,redacted,20,22.02.2026,connected,optimize,2024-11-30
+TH-02141,oem-b,Rainer Niehaus,Erlenring 75a,redacted,10,04.08.2024,connected,free,2025-01-14
+  TH-02060 ,OEM_A,Claudia Ahrens,Tannenweg 137,redacted,80,17.10.2025,unknown,free,
+TH 02188,oem-b,Holger Ebeling,Waldsaum 111,redacted,04,2025-02-02,connected,free,2025-02-11
+  TH-02174 ,oem-b,Dagmar Vollmer,Kirchweg 71,redacted,40,03.10.2025,unknown,care,2025-08-25
+th-02397,OEM_C ,Thorsten Zschiesche,Uferstraße 56,redacted,70,2025-07-18,connected,free,
+th-02359,C,Dagmar Thiemann,Buchenkamp 112a,redacted,80,16.10.2025,connected,free,
+02314,OEM_C,Jörg Brinkmann,Lindenhof 125,redacted,80,01.01.2024,connected,optimize,2026-04-20
+,OEM_C ,Thorsten Gebhardt,Waldsaum 2,redacted,44,,unknown,free,
+02028,OEM A,Norbert Möllenkamp,Schulstraße 24,redacted,13,03.12.2024,connected,optimize,2026-02-08
+02145,B,Elke Sassenberg,Hauptstraße 91a,redacted,40,2024-02-01,connected,free,2025-02-28
+TH-02382,OEM_C,Manuela Fährmann,Hauptstraße 139a,redacted,22,2025-01-02,not_connected,care_plus,
+TH-02064,OEM A,Thorsten Oberkamp,Kirchweg 41,redacted,80,2025-09-01,not_connected,free,2024-10-03
+TH-02176,OEM_B,Bogdan Zschiesche,Ahornweg 141a,redacted,90,2023-02-17,connected,care,2024-11-28
+TH-02089,OEM A,Ingrid Fährmann,Tannenweg 25,redacted,22,2024-10-13,not_connected,care,2024-12-10
+TH-02353,OEM_C ,Andreas Lindemann,Rosenkamp 112,redacted,60,07.08.2024,not_connected,care,2025-03-12
+  TH-02182 ,B,Bettina Ebeling,Pappelweg 18,redacted,40,2025-11-09,connected,optimize,2026-02-24
+TH-02087,OEM A,Jörg Oberkamp,Hauptstraße 45a,redacted,12,2024-08-07,connected,free,
+TH-02199-1,OEM_B,Ingrid Hillebrand,Feldmark 5,redacted,04,16.04.2025,unknown,free,
+  TH-02045 ,oem a,Ahmet Kaminski,Feldmark 131,redacted,13,2023-07-24,connected,free,2025-10-03
+02126,OEM A,Claudia Ahrens,Kirchweg 127b,redacted,04,03.06.2023,connected,free,2024-08-10
+TH-02057,A,Jörg Radtke,Feldmark 20a,redacted,80,2024-12-27,not_connected,optimize,2024-09-24
+TH-02311,oem c,Ulrike Brinkmann,Buchenkamp 98,redacted,40,2023-05-10,connected,free,2024-09-22
+  TH-02274 ,B,Petra Dettmer,Im Winkel 142,redacted,04,2025-07-25,not_connected,care_plus,
+02178,oem-b,Sabine Thiemann,Erlenring 68,redacted,60,21.10.2024,connected,optimize,2026-04-16
+TH-02244,OEM B,Christoph Zschiesche,Quellenstraße 19,redacted,50,2025-10-07,connected,free,2024-07-08
+TH-02122,OEM_A,Katrin Vollmer,Dorfstraße 70,redacted,50,2024-06-28,connected,optimize,2026-04-21
+TH-02366,OEM_C,Andreas Fährmann,Uferstraße 11,redacted,90,2023-10-13,connected,free,2025-08-06
+th-02187,B,Bogdan Ahrens,Gartenstraße 12a,redacted,13,29.03.2025,connected,optimize,
+TH-02264,OEM_B,Gudrun Jansen,Ostpreußenweg 4,redacted,70,2023-07-26,not_connected,free,
+TH-02181,B,Christoph Radtke,Kirchweg 62a,redacted,50,2023-07-04,connected,optimize,2025-12-22
+TH 02006,oem a,Ahmet Fährmann,Tannenweg 87,redacted,12,2023-05-19,connected,optimize,2025-08-10
+TH-02320,OEM_C,Rainer Jansen,Mühlenstraße 98,redacted,81,06.07.2023,not_connected,free,2024-12-19
+TH-02289,OEM_B,Volker Gebhardt,Rosenkamp 65,redacted,70,08.04.2025,unknown,free,2026-02-19
+TH-02358-1,OEM_C ,Claudia Brinkmann,Hauptstraße 14,redacted,22,2024-12-26,connected,optimize,
+  TH-02049 ,OEM_A,Ulrike Bartels,Birkenallee 107,redacted,12,2023-05-19,connected,care_plus,2025-03-14
+TH-02010,A,Petra Sassenberg,Gartenstraße 119,redacted,50,24.01.2024,not_connected,free,
+TH-02012,oem a,Eva Pfefferle,Uferstraße 46a,redacted,22,2023-10-26,connected,optimize,
+TH-02008,OEM A,Manuela Bartels,Im Winkel 143,redacted,80,2023-10-24,connected,free,2025-03-16
+TH-02131-1,oem a,Volker Brinkmann,Ahornweg 13a,redacted,30,2025-09-10,not_connected,care_plus,2025-05-04
+TH-02225-1,OEM_B,Jörg Dettmer,Schulstraße 110a,redacted,60,2025-10-29,unknown,free,2024-12-08
+TH 02070,OEM A,Elke Ebeling,Erlenring 140,redacted,80,2024-09-26,unknown,care,2024-09-19
+th-02205,OEM_B,Ulrike Ebeling,Uferstraße 13a,redacted,80,2025-12-06,not_connected,care_plus,2025-02-08
+TH-02340,OEM_C ,Ulrike Uhlig,Tannenweg 102,redacted,40,2024-05-14,connected,free,2026-02-12
+TH-02223,B,Lothar Radtke,Ahornweg 98,redacted,04,2025-06-04,connected,free,2026-05-06
+TH-02097,OEM A,Frank Hillebrand,Tannenweg 125,redacted,12,2023-09-19,connected,free,2025-10-20
+TH-02074,OEM A,Jens Fährmann,Dorfstraße 38,redacted,13,09.04.2025,connected,care,2025-10-19
+TH 02052,A,Eva Fährmann,Im Winkel 118,redacted,12,06.05.2023,connected,free,2025-01-27
+  TH-02240 ,OEM B,Bogdan Möllenkamp,Ahornweg 45,redacted,90,29.09.2023,connected,optimize,2025-02-10
+  TH-02055 ,OEM A,Gudrun Jansen,Pappelweg 147b,redacted,90,2025-03-30,connected,care,
+  TH-02298 ,OEM_C,Dieter Niehaus,Erlenring 138,redacted,80,04.06.2024,connected,free,
+TH-02034,oem a,Kerstin Jansen,Buchenkamp 129,redacted,12,2023-04-10,connected,care,2025-10-16
+TH-02200,OEM B,Sabine Hillebrand,Kirchweg 66,redacted,10,2024-04-15,not_connected,free,2025-09-09
+TH-02043,OEM_A,Ahmet Niehaus,Ahornweg 29a,redacted,40,2023-12-05,not_connected,optimize,
+th-02385,C,Manuela Gebhardt,Pappelweg 79,redacted,40,2025-09-13,connected,care,2025-04-09
+TH-02184,OEM B,Thorsten Bartels,Buchenkamp 4,redacted,50,2023-05-16,connected,free,
+TH-02150,OEM_B,Christoph Ahrens,Gartenstraße 23,redacted,04,17.02.2024,unknown,free,2026-01-06
+th-02122,oem a,Katrin Vollmer,Dorfstraße 70,redacted,50,28.06.2024,connected,optimize,
+TH-02033,oem a,Petra Oberkamp,Buchenkamp 113,redacted,60,2024-07-27,connected,optimize,
+TH-02019,OEM_A,Bogdan Radtke,Birkenallee 34b,redacted,50,25.10.2025,connected,free,2026-04-09
+TH-02071,oem a,Bettina Oberkamp,Rosenkamp 98,redacted,22,23.11.2024,connected,optimize,
+TH-02031,OEM A,Claudia Kortmann,Dorfstraße 81,redacted,12,2023-12-10,connected,optimize,2024-10-07
+TH-02051,OEM A,Gudrun Oberkamp,Dorfstraße 102,redacted,22,2023-03-09,connected,optimize,2024-08-26
+TH-02365,OEM_C,Ingrid Oberkamp,Quellenstraße 32a,redacted,13,2024-05-15,connected,optimize,
+TH-02007,OEM A,Bogdan Sassenberg,Buchenkamp 121,redacted,80,2023-06-08,connected,care,2025-07-20
+02027,OEM_A,Manuela Niehaus,Lindenhof 103,redacted,81,2025-12-19,not_connected,care_plus,
+TH-02040,oem a,Ahmet Möllenkamp,Kirchweg 50b,redacted,81,05.04.2024,connected,care_plus,2026-01-06
+TH-02378,OEM_C ,Lothar Gebhardt,Schulstraße 58,redacted,30,2024-05-18,not_connected,care,
+TH-02317,oem c,Heike Thiemann,Lindenhof 111a,redacted,81,07.12.2024,connected,care_plus,2024-10-30
+TH-02220,OEM_B,Volker Vollmer,Kirchweg 138,redacted,60,20.03.2024,unknown,free,2024-07-25
+TH-02067,oem a,Ahmet Möllenkamp,Buchenkamp 144,redacted,12,03.02.2026,not_connected,optimize,2024-09-27
+TH-02076,oem a,Kerstin Zschiesche,Dorfstraße 61a,redacted,30,2024-06-11,connected,free,2025-12-23
+TH 02197,B,Norbert Kaminski,Im Winkel 78,redacted,50,2023-07-26,not_connected,care_plus,
+  TH-02002 ,oem a,Holger Ebeling,Buchenkamp 65b,redacted,10,31.01.2026,connected,optimize,
+TH-02117-1,oem a,Dagmar Zschiesche,Ostpreußenweg 21b,redacted,50,28.12.2023,not_connected,free,
+TH-02090,oem a,Andreas Uhlig,Ahornweg 52,redacted,40,23.09.2023,connected,free,2025-10-15
+TH-02362,OEM_C,Dagmar Lindemann,Rosenkamp 67,redacted,12,26.09.2024,not_connected,optimize,2026-01-22
+TH-02246,oem-b,Heike Lindemann,Hauptstraße 63,redacted,10,02.11.2025,connected,free,2025-08-28
+TH-02293,OEM_C,Holger Vollmer,Rosenkamp 27b,redacted,30,2026-02-23,not_connected,care,
+TH-02400,C,Ingrid Grabowski,Lindenhof 101,redacted,12,2023-07-06,connected,care,2024-12-28
+TH-02342,C,Elke Gebhardt,Feldmark 122,redacted,90,2023-08-29,connected,optimize,2026-04-04
+TH-02154,OEM B,Dagmar Lindemann,Ahornweg 56,redacted,04,2026-01-24,not_connected,free,
+th-02142,OEM_B,Rainer Gebhardt,Rosenkamp 79,redacted,04,26.09.2023,not_connected,care,2025-12-03
+TH-02093,OEM A,Andreas Weinhold,Birkenallee 129,redacted,12,28.10.2023,connected,optimize,2026-04-05
+TH-02266,oem-b,Dagmar Brinkmann,Buchenkamp 21,redacted,04,2025-01-13,connected,care_plus,
+TH-02272,oem-b,Gudrun Zschiesche,Gartenstraße 12a,redacted,22,2023-07-05,connected,care,
+TH 02307,C,Dagmar Fährmann,Hauptstraße 73a,redacted,70,2023-07-23,connected,free,2025-02-12
+  TH-02157 ,B,Lothar Gebhardt,Mühlenstraße 34,redacted,44,2025-01-25,not_connected,care_plus,2026-04-09
+TH-02287,B,Jens Ahrens,Kirchweg 99,redacted,12,2025-01-03,connected,free,
+th-02127,OEM_A,Petra Oestreich,Lindenhof 131,redacted,13,2024-05-09,connected,free,
+  TH-02106 ,OEM_A,Norbert Bartels,Lindenhof 49,redacted,30,2023-05-20,not_connected,care_plus,
+TH 02136,A,Frank Ebeling,Kirchweg 46b,redacted,44,30.01.2025,connected,free,
+02249,oem-b,Katrin Gebhardt,Nordring 69,redacted,04,2024-11-20,connected,free,2025-01-19
+TH-02217,OEM B,Claudia Fährmann,Uferstraße 37,redacted,70,2025-03-06,not_connected,optimize,2026-03-21
+  TH-02102 ,A,Holger Sassenberg,Hauptstraße 108,redacted,70,05.06.2024,not_connected,care,2024-12-18
+TH-02326,OEM_C ,Thorsten Weinhold,Nordring 44,redacted,80,31.10.2024,not_connected,care,2024-08-19
+  TH-02024 ,A,Eva Hillebrand,Im Winkel 31,redacted,40,2023-09-28,unknown,free,2025-01-16
+th-02258,OEM B,Gerhard Oberkamp,Hauptstraße 55,redacted,90,2024-09-12,connected,free,
+th-02062,OEM A,Ingrid Fährmann,Erlenring 13,redacted,12,2025-11-28,connected,optimize,2024-10-07
+TH-02155,OEM B,Manuela Lindemann,Rosenkamp 11,redacted,44,2023-07-31,connected,optimize,
+th-02355,OEM_C ,Ulrike Grabowski,Feldmark 37,redacted,20,23.04.2024,connected,free,2025-12-08
+th-02393,oem c,Bettina Kortmann,Ostpreußenweg 50,redacted,20,14.05.2024,connected,care_plus,
+TH-02026,OEM_A,Andreas Uhlig,Birkenallee 87,redacted,20,06.06.2025,not_connected,optimize,
+TH 02298,oem c,Dieter Niehaus,Erlenring 138,redacted,80,2024-06-04,connected,free,2025-11-13
+TH-02053,A,Elke Ebeling,Pappelweg 100,redacted,90,22.10.2023,connected,free,2024-07-12
+TH-02237,oem-b,Jens Weinhold,Quellenstraße 127,redacted,10,23.11.2024,not_connected,care,2024-11-04
+  TH-02112 ,oem a,Lothar Hillebrand,Erlenring 21,redacted,40,2023-05-10,connected,free,2024-12-07
+02253,OEM_B,Wiebke Möllenkamp,Tannenweg 67,redacted,12,2024-11-07,unknown,optimize,
+TH-02270,OEM B,Katrin Brinkmann,Mühlenstraße 45b,redacted,20,05.03.2025,connected,care,2025-10-15
+TH-02313,OEM_C ,Ulrike Oestreich,Kirchweg 28,redacted,81,2023-09-09,connected,care,
+TH-02130,OEM_A,Kerstin Jansen,Pappelweg 126,redacted,13,2024-12-01,connected,free,2024-09-07
+TH-02110,oem a,Lothar Niehaus,Erlenring 79a,redacted,80,2025-07-19,not_connected,care,2026-04-22
+TH-02303,C,Ahmet Sassenberg,Nordring 134b,redacted,20,25.04.2025,connected,free,2024-10-09
+TH-02304,oem c,Rainer Ahrens,Uferstraße 22,redacted,10,2025-04-01,connected,free,2025-04-18
+TH 02179,OEM_B,Norbert Kaminski,Nordring 24,redacted,70,03.12.2024,not_connected,optimize,2025-06-08
+  TH-02278 ,oem-b,Kerstin Jansen,Buchenkamp 62,redacted,80,2025-11-15,connected,care,2026-01-15
+TH-02210,B,Wiebke Oberkamp,Hauptstraße 99,redacted,04,28.04.2025,not_connected,free,2024-11-09
+TH-02107,A,Ahmet Kortmann,Feldmark 69b,redacted,12,03.10.2024,not_connected,care,2025-08-03
+TH-02389-1,OEM_C ,Lothar Gebhardt,Tannenweg 144,redacted,50,2023-10-10,connected,care,2024-08-23
+02259,OEM_B,Gerhard Sassenberg,Pappelweg 72,redacted,44,2025-02-28,connected,care,2024-11-17
+TH-02030,oem a,Holger Kortmann,Waldsaum 58b,redacted,60,2023-08-28,connected,free,2025-05-15
+TH-02144,OEM B,Jens Ebeling,Gartenstraße 85a,redacted,13,2023-07-10,connected,optimize,2025-12-31
+02305,oem c,Ulrike Uhlig,Uferstraße 95,redacted,44,2024-05-09,not_connected,free,
+  TH-02038 ,A,Ahmet Zschiesche,Uferstraße 113,redacted,04,08.08.2024,connected,optimize,2024-08-22
+TH-02243,OEM B,Volker Hillebrand,Kirchweg 138,redacted,40,2024-12-16,connected,optimize,2024-09-23
+TH-02133,A,Norbert Zschiesche,Tannenweg 5,redacted,12,19.05.2025,connected,free,2024-11-27
+  TH-02115 ,OEM A,Frank Gebhardt,Hauptstraße 88a,redacted,12,2024-06-08,not_connected,free,2025-07-22
+TH 02388,oem c,Claudia Radtke,Waldsaum 142,redacted,40,2023-05-23,connected,optimize,2024-07-15
+02044,OEM A,Thorsten Gebhardt,Ahornweg 134,redacted,22,13.09.2023,connected,free,2025-01-06
+th-02069,OEM_A,Gerhard Thiemann,Buchenkamp 30b,redacted,80,2024-12-09,unknown,care,
+TH-02195,B,Norbert Zschiesche,Im Winkel 46a,redacted,30,2024-12-26,connected,optimize,2024-12-11
+TH-02134,OEM A,Dagmar Lindemann,Gartenstraße 53b,redacted,12,25.01.2025,connected,free,2025-08-09
+TH-02328,OEM_C,Gerhard Kaminski,Mühlenstraße 17a,redacted,20,13.10.2023,not_connected,care_plus,2024-10-15
+th-02139,A,Sabine Kortmann,Im Winkel 41,redacted,10,2024-05-18,connected,optimize,2026-04-09
+TH 02029,oem a,Jörg Bartels,Mühlenstraße 103,redacted,60,2025-09-15,not_connected,optimize,
+TH-02198,B,Andreas Thiemann,Feldmark 8b,redacted,81,20.08.2024,not_connected,care,2024-12-06
+TH-02013,A,Ahmet Fährmann,Birkenallee 29,redacted,04,13.11.2024,not_connected,optimize,2024-07-13
+TH-02331,OEM_C ,Jörg Kaminski,Erlenring 3,redacted,10,18.01.2026,connected,free,2025-02-17
+TH-02171,OEM_B,Kerstin Gebhardt,Mühlenstraße 35,redacted,50,2025-07-31,connected,free,2024-09-07
+TH-02194-1,OEM_B,Ulrike Möllenkamp,Schulstraße 52b,redacted,04,2024-05-23,connected,care_plus,2025-10-06
+,OEM A,Thorsten Thiemann,Rosenkamp 56b,redacted,30,,unknown,free,
+TH 02081,OEM_A,Eva Thiemann,Kirchweg 75,redacted,60,2024-11-25,connected,optimize,2025-10-17
+02004,OEM A,Rainer Gebhardt,Ostpreußenweg 56,redacted,13,2025-07-07,connected,free,2026-02-01
+TH-02119,OEM A,Thorsten Niehaus,Schulstraße 68,redacted,13,07.04.2025,not_connected,optimize,
+  TH-02129 ,OEM A,Manuela Oberkamp,Gartenstraße 18a,redacted,22,23.02.2026,connected,free,2025-10-31
+TH-02066,A,Dagmar Radtke,Feldmark 70,redacted,50,2023-10-27,not_connected,care_plus,2025-09-12
+TH-02221,OEM B,Volker Pfefferle,Dorfstraße 124,redacted,13,2025-07-09,connected,free,2026-01-30
+TH-02268,B,Petra Niehaus,Uferstraße 13,redacted,22,03.01.2023,connected,free,2025-05-29
+TH-02302,C,Dagmar Radtke,Dorfstraße 112,redacted,81,29.01.2024,connected,care,2026-01-03
+TH 02114,OEM_A,Thorsten Ebeling,Buchenkamp 6,redacted,60,13.07.2023,connected,free,2025-08-09
+TH-02252,OEM_B,Rainer Ebeling,Birkenallee 36,redacted,10,2025-12-20,not_connected,care,2025-10-10
+TH-02283,oem-b,Lothar Oberkamp,Quellenstraße 63a,redacted,44,2023-01-23,connected,free,2026-01-16
+TH-02124,OEM A,Ahmet Pfefferle,Rosenkamp 5a,redacted,04,22.06.2025,connected,optimize,2025-11-15
+TH-02306,C,Lothar Lindemann,Dorfstraße 7b,redacted,60,10.12.2023,unknown,free,2025-09-06
+TH-02044-1,A,Thorsten Gebhardt,Ahornweg 134,redacted,22,13.09.2023,connected,free,
+  TH-02175 ,B,Jörg Ebeling,Erlenring 34,redacted,80,2023-03-30,connected,free,2026-04-08
+TH-02018,A,Ingrid Thiemann,Nordring 33,redacted,70,2024-03-12,unknown,free,
+TH 02151,OEM B,Jens Gebhardt,Dorfstraße 38b,redacted,04,2023-07-06,not_connected,free,2025-12-15
+TH-02183,OEM_B,Thorsten Ebeling,Waldsaum 91b,redacted,70,19.09.2023,not_connected,free,
+TH-02121,oem a,Holger Brinkmann,Birkenallee 57,redacted,44,2025-06-17,connected,free,2026-05-09
+02003,OEM_A,Manuela Sassenberg,Schulstraße 23a,redacted,13,08.10.2023,not_connected,care_plus,2024-08-16
+TH-02343,OEM_C ,Dagmar Radtke,Rosenkamp 29,redacted,81,2025-08-02,connected,free,2026-01-23
+TH-02333,C,Dagmar Hillebrand,Quellenstraße 76,redacted,30,28.05.2023,connected,free,2025-09-14
+th-02193,OEM B,Ulrike Möllenkamp,Erlenring 9,redacted,04,05.01.2025,not_connected,optimize,2025-05-23
+TH-02335,oem c,Christoph Uhlig,Rosenkamp 12a,redacted,81,2025-10-26,connected,care,
+TH-02146-1,OEM_B,Sabine Brinkmann,Hauptstraße 143,redacted,20,2024-09-29,connected,care_plus,2025-06-04
+  TH-02262 ,OEM B,Eva Kaminski,Gartenstraße 26a,redacted,40,14.09.2023,connected,care_plus,
+02323,OEM_C,Ahmet Oestreich,Schulstraße 15b,redacted,81,2024-10-10,connected,free,2024-12-08
+TH-02380,OEM_C,Holger Dettmer,Lindenhof 14,redacted,60,2025-03-04,connected,free,2024-11-09
+TH-02281,OEM_B,Ingrid Kaminski,Tannenweg 65a,redacted,81,12.07.2023,connected,care,
+TH-02050-1,oem a,Lothar Thiemann,Waldsaum 148,redacted,22,2025-03-29,connected,optimize,2025-03-25
+TH-02216,OEM_B,Heike Weinhold,Ostpreußenweg 82,redacted,22,18.10.2025,connected,care,
+th-02284,oem-b,Volker Dettmer,Erlenring 18b,redacted,13,18.05.2025,not_connected,optimize,2026-04-15
+TH 02376,OEM_C,Bettina Uhlig,Birkenallee 1,redacted,22,2023-02-05,not_connected,optimize,2026-01-11
+TH-02096,A,Kerstin Vollmer,Buchenkamp 95a,redacted,81,2023-01-04,not_connected,free,2025-12-01
+TH-02079,oem a,Katrin Uhlig,Birkenallee 102,redacted,40,2024-02-20,not_connected,free,2025-02-01
+TH-02209,oem-b,Gudrun Grabowski,Buchenkamp 23,redacted,20,2025-07-06,not_connected,free,
+02387,oem c,Heike Vollmer,Uferstraße 134,redacted,13,2024-04-10,connected,care,2026-01-10
+TH-02222,OEM B,Kerstin Zschiesche,Pappelweg 50,redacted,50,2025-09-11,not_connected,free,2025-02-12
+TH-02042,OEM_A,Norbert Kaminski,Hauptstraße 105,redacted,60,29.04.2023,not_connected,free,
+TH-02383,OEM_C ,Christoph Vollmer,Hauptstraße 90,redacted,90,10.11.2025,connected,free,2025-10-22
+TH-02032,OEM_A,Dieter Grabowski,Hauptstraße 99,redacted,04,2025-04-24,connected,care_plus,2024-12-20
+TH 02137,A,Norbert Dettmer,Kirchweg 48,redacted,13,28.05.2023,connected,care_plus,2026-04-26
+TH-02017,OEM A,Manuela Gebhardt,Birkenallee 55,redacted,40,2024-11-02,connected,care,2024-10-17
+TH-02329,oem c,Dieter Uhlig,Waldsaum 123,redacted,90,07.07.2025,not_connected,optimize,
+TH-02288,oem-b,Ahmet Möllenkamp,Uferstraße 14,redacted,81,2023-12-17,connected,care,
+TH-02211,OEM B,Holger Grabowski,Ostpreußenweg 59,redacted,44,2024-07-18,not_connected,optimize,2024-07-27
+TH-02191,oem-b,Bettina Weinhold,Birkenallee 64a,redacted,90,18.02.2024,unknown,free,
+TH-02295,oem c,Ingrid Weinhold,Im Winkel 118,redacted,50,2024-01-16,not_connected,care,2026-03-15
+  TH-02336 ,OEM_C,Kerstin Kaminski,Lindenhof 129,redacted,70,21.09.2025,connected,care,2025-09-01
+TH-02377,C,Andreas Oestreich,Pappelweg 67b,redacted,10,2023-02-26,connected,free,2026-05-12
+TH-02088,OEM A,Norbert Bartels,Gartenstraße 62b,redacted,90,2025-01-11,not_connected,care_plus,2025-11-26
+  TH-02369 ,C,Petra Fährmann,Gartenstraße 128a,redacted,04,2025-09-16,not_connected,optimize,
+TH-02390,oem c,Heike Zschiesche,Im Winkel 113a,redacted,70,01.07.2025,not_connected,care_plus,2025-10-21
+TH-02172-1,OEM B,Ingrid Zschiesche,Dorfstraße 2,redacted,70,11.02.2023,not_connected,care_plus,2025-02-08
+th-02344,OEM_C,Bogdan Vollmer,Uferstraße 38,redacted,40,2026-01-19,connected,care,2025-05-20
+TH-02160,B,Rainer Fährmann,Uferstraße 89a,redacted,90,19.02.2025,connected,optimize,2025-02-26
+TH-02218,OEM_B,Ulrike Möllenkamp,Erlenring 124,redacted,10,29.01.2026,not_connected,free,
+TH-02275,OEM_B,Claudia Gebhardt,Dorfstraße 9,redacted,12,2024-07-03,connected,optimize,2026-03-03
+th-02349,OEM_C ,Heike Kortmann,Dorfstraße 133,redacted,90,19.04.2025,not_connected,optimize,2025-10-05
+TH-02364,OEM_C,Frank Möllenkamp,Waldsaum 139a,redacted,81,13.06.2024,not_connected,free,2025-04-30
+TH 02321,OEM_C ,Christoph Vollmer,Rosenkamp 12,redacted,22,2025-02-22,not_connected,care,2025-07-10
+TH-02036,A,Elke Jansen,Ostpreußenweg 75,redacted,44,31.01.2024,not_connected,optimize,2025-02-22
+TH 02166,B,Thorsten Kortmann,Birkenallee 88,redacted,80,16.10.2024,connected,care_plus,2026-03-23
+  TH-02310 ,OEM_C,Kerstin Kaminski,Birkenallee 46,redacted,40,2024-02-23,unknown,free,
+  TH-02119 ,A,Thorsten Niehaus,Schulstraße 68,redacted,13,07.04.2025,unknown,optimize,
+  TH-02214 ,OEM B,Ingrid Pfefferle,Lindenhof 130,redacted,70,2023-10-15,connected,optimize,2025-03-02
+  TH-02061 ,OEM A,Wiebke Ahrens,Tannenweg 82,redacted,12,17.07.2023,connected,free,2025-01-19
+TH-02291-1,OEM_C ,Ulrike Pfefferle,Feldmark 88,redacted,40,21.11.2024,not_connected,care_plus,2025-10-21
+TH-02159,OEM B,Eva Weinhold,Rosenkamp 109b,redacted,10,2025-01-10,connected,care_plus,2025-08-15
+02267,OEM B,Claudia Jansen,Mühlenstraße 96,redacted,90,2025-09-13,connected,free,2025-07-17
+,OEM_A,Dagmar Dettmer,Pappelweg 45,redacted,20,,unknown,free,
+th-02021,OEM_A,Norbert Dettmer,Dorfstraße 31,redacted,81,2024-07-03,connected,optimize,2026-03-02
+TH-02233,OEM_B,Kerstin Lindemann,Hauptstraße 75,redacted,12,2024-09-01,unknown,care,2024-11-11
+02135,OEM_A,Wiebke Dettmer,Ahornweg 111,redacted,81,04.06.2025,connected,care,2025-09-29
+th-02035,oem a,Kerstin Zschiesche,Lindenhof 123a,redacted,13,2023-08-04,connected,care_plus,2025-01-13
+TH-02189,B,Jörg Ebeling,Schulstraße 118,redacted,04,2025-04-07,connected,care_plus,2024-11-16
+TH-02338,oem c,Frank Kortmann,Waldsaum 97,redacted,60,2023-07-24,connected,care,2024-10-11
+th-02109,OEM A,Gudrun Kaminski,Mühlenstraße 30,redacted,60,28.04.2025,connected,free,2025-09-16
+TH-02199,B,Ingrid Hillebrand,Feldmark 5,redacted,04,2025-04-16,not_connected,free,2025-02-11
+TH-02148,OEM B,Claudia Kaminski,Nordring 22,redacted,20,2025-10-19,connected,optimize,
+  TH-02373 ,C,Christoph Ebeling,Tannenweg 14,redacted,13,19.10.2025,not_connected,optimize,2025-07-28
+th-02196,OEM B,Ingrid Radtke,Buchenkamp 100b,redacted,81,31.05.2023,connected,care_plus,
+02339,OEM_C,Bettina Gebhardt,Im Winkel 147,redacted,13,2025-02-06,connected,free,2026-04-09
+TH-02260,OEM B,Heike Gebhardt,Pappelweg 59,redacted,70,2023-11-06,connected,care,2025-05-04
+th-02363,OEM_C,Christoph Gebhardt,Tannenweg 126b,redacted,90,09.12.2025,connected,free,2025-03-17
+TH-02309,oem c,Jens Gebhardt,Nordring 119,redacted,90,19.04.2025,connected,optimize,2024-08-12
+TH-02180-1,B,Andreas Radtke,Hauptstraße 123b,redacted,10,17.10.2025,connected,optimize,2026-02-07
+TH-02001-1,oem a,Manuela Niehaus,Gartenstraße 46,redacted,81,2024-11-26,connected,optimize,2025-02-07
+TH-02251,B,Bettina Ebeling,Birkenallee 79,redacted,12,2024-12-27,connected,optimize,2025-12-03
+th-02170,oem-b,Ulrike Weinhold,Nordring 67,redacted,13,2023-08-16,connected,optimize,
+th-02020,OEM_A,Heike Grabowski,Uferstraße 39a,redacted,90,16.02.2025,connected,optimize,2025-05-20
+TH-02282,oem-b,Petra Ebeling,Schulstraße 119a,redacted,22,29.01.2025,not_connected,free,2026-02-16
+  TH-02271 ,OEM B,Jens Zschiesche,Kirchweg 11b,redacted,22,2025-07-09,connected,care,
+  TH-02084 ,A,Katrin Bartels,Nordring 70a,redacted,10,2026-02-16,connected,care,2025-11-28
+TH 02300,C,Heike Uhlig,Uferstraße 47a,redacted,81,2025-02-13,connected,optimize,2025-05-29
+TH-02368,OEM_C,Sabine Gebhardt,Tannenweg 99b,redacted,50,2025-02-17,unknown,free,2025-04-15
+TH-02332,OEM_C,Thorsten Lindemann,Gartenstraße 70,redacted,20,24.10.2024,not_connected,care,2025-07-31
+TH-02206,oem-b,Manuela Thiemann,Tannenweg 40,redacted,60,09.02.2025,connected,optimize,2026-01-21
+TH-02164,OEM_B,Katrin Zschiesche,Schulstraße 75,redacted,30,2025-01-21,not_connected,free,2025-08-13
+TH-02297,C,Petra Jansen,Ahornweg 94,redacted,60,2025-03-17,connected,free,2025-02-12
+TH-02371,OEM_C ,Ulrike Bartels,Lindenhof 101,redacted,10,2023-05-24,connected,care,
+TH-02078,A,Jörg Fährmann,Pappelweg 96,redacted,10,2024-01-30,connected,optimize,
+TH-02395,C,Dagmar Pfefferle,Uferstraße 118,redacted,81,22.05.2024,connected,optimize,
+TH-02242,B,Ingrid Lindemann,Im Winkel 100,redacted,04,2024-10-09,connected,free,2026-03-28
+th-02269,OEM_B,Frank Radtke,Gartenstraße 132,redacted,04,21.03.2025,connected,free,2025-05-26
+TH 02279,OEM B,Gerhard Sassenberg,Schulstraße 5b,redacted,60,2023-02-06,connected,free,2025-07-22
+TH-02113,OEM A,Andreas Möllenkamp,Lindenhof 97,redacted,22,2024-11-22,connected,optimize,2025-11-29
+TH-02177,OEM B,Thorsten Jansen,Erlenring 64,redacted,60,2025-06-25,connected,care,2025-09-09
+th-02299,OEM_C ,Thorsten Brinkmann,Erlenring 100a,redacted,40,2023-11-16,connected,free,2026-01-08
+TH-02068,OEM A,Dieter Thiemann,Feldmark 91b,redacted,10,2025-03-28,connected,free,
+th-02339,oem c,Bettina Gebhardt,Im Winkel 147,redacted,13,06.02.2025,connected,free,
+02346,C,Gerhard Hillebrand,Im Winkel 35b,redacted,90,2024-07-23,connected,free,
+TH-02149-1,OEM_B,Norbert Brinkmann,Ostpreußenweg 118,redacted,12,14.11.2024,connected,optimize,2025-12-06
+TH-02072,A,Lothar Grabowski,Hauptstraße 42,redacted,90,2023-03-20,connected,free,2025-07-12
+02229,OEM_B,Bogdan Bartels,Birkenallee 52,redacted,80,14.01.2023,not_connected,care_plus,2024-12-20
+TH-02386,oem c,Petra Oberkamp,Im Winkel 90,redacted,44,2025-06-02,not_connected,free,2026-03-27
+TH-02374,oem c,Katrin Uhlig,Lindenhof 148,redacted,44,2025-09-03,connected,free,2026-02-03
+TH-02005,oem a,Gerhard Niehaus,Gartenstraße 39,redacted,70,2025-09-12,connected,free,2025-09-23
+TH-02100,oem a,Ingrid Fährmann,Waldsaum 133b,redacted,22,2024-04-28,connected,free,
+TH-02063,oem a,Bettina Bartels,Lindenhof 131,redacted,50,06.04.2024,connected,free,
+TH-02248,B,Manuela Fährmann,Waldsaum 2,redacted,50,2025-12-28,connected,optimize,2026-01-06
+TH-02082,oem a,Rainer Oestreich,Buchenkamp 11,redacted,80,2023-01-08,not_connected,free,
+TH-02348,oem c,Rainer Gebhardt,Nordring 114a,redacted,30,29.10.2024,connected,free,2025-10-29
+TH-02047-1,A,Thorsten Sassenberg,Waldsaum 74,redacted,10,11.11.2024,connected,free,2025-06-03
+TH-02185-1,oem-b,Claudia Kaminski,Ahornweg 116,redacted,81,2023-12-24,connected,free,
+th-02357,C,Bettina Lindemann,Kirchweg 66,redacted,20,2023-09-15,connected,optimize,2025-03-14
+TH-02330,oem c,Dieter Gebhardt,Ostpreußenweg 143,redacted,60,2025-10-23,not_connected,free,2025-01-20
+TH-02156,B,Wiebke Jansen,Quellenstraße 139a,redacted,40,23.11.2024,not_connected,care_plus,2026-03-21
+TH-02215,OEM_B,Frank Weinhold,Schulstraße 110a,redacted,20,2024-11-04,connected,care,
+TH-02347,C,Elke Ahrens,Im Winkel 72,redacted,81,2025-04-02,connected,free,2024-07-22
+TH-02372,OEM_C ,Jörg Hillebrand,Kirchweg 78b,redacted,13,2025-10-17,unknown,care,2024-10-19
+  TH-02379 ,C,Holger Kaminski,Tannenweg 71b,redacted,80,2025-02-27,connected,free,
+th-02241,OEM B,Lothar Möllenkamp,Tannenweg 87b,redacted,44,2023-09-21,not_connected,free,
+TH-02226,oem-b,Kerstin Oberkamp,Ahornweg 29,redacted,70,2025-12-14,connected,free,
+TH-02073,OEM A,Dieter Bartels,Lindenhof 112,redacted,44,15.11.2024,connected,optimize,
+02341,C,Gudrun Vollmer,Buchenkamp 128a,redacted,22,2025-08-28,connected,free,2025-12-04
+th-02111,oem a,Ingrid Gebhardt,Pappelweg 15,redacted,90,28.09.2024,connected,care,
+TH-02168,oem-b,Wiebke Brinkmann,Quellenstraße 101,redacted,04,29.04.2025,connected,free,2025-07-07
+TH-02202,oem-b,Lothar Fährmann,Ahornweg 40a,redacted,70,2023-04-25,connected,free,2026-05-07
+TH-02277,OEM_B,Frank Weinhold,Ostpreußenweg 20a,redacted,10,2025-06-24,connected,care_plus,
+TH-02254,OEM_B,Katrin Hillebrand,Birkenallee 64,redacted,10,2023-01-31,not_connected,free,
+TH-02370,OEM_C,Katrin Kortmann,Pappelweg 32,redacted,60,2025-02-02,not_connected,free,2026-01-31
+TH-02235,oem-b,Bettina Gebhardt,Nordring 73,redacted,04,29.09.2023,connected,free,2025-08-17
+th-02226,OEM B,Kerstin Oberkamp,Ahornweg 29,redacted,70,14.12.2025,connected,free,
+TH-02276,OEM B,Rainer Dettmer,Feldmark 52,redacted,81,2023-01-10,not_connected,optimize,2025-11-15
+  TH-02236 ,B,Katrin Fährmann,Quellenstraße 86b,redacted,20,2023-04-10,connected,optimize,
+TH-02190,oem-b,Gerhard Vollmer,Ahornweg 9,redacted,90,2025-01-21,connected,free,2025-07-17
+TH-02230,oem-b,Gudrun Hillebrand,Uferstraße 53,redacted,13,2025-03-18,connected,care,
+TH-02265,B,Christoph Fährmann,Ahornweg 64,redacted,10,2025-11-02,connected,free,
+th-02025,OEM_A,Frank Zschiesche,Buchenkamp 129,redacted,13,2025-08-12,connected,free,2024-09-10
+TH-02056,OEM_A,Manuela Fährmann,Quellenstraße 147b,redacted,81,23.12.2024,connected,care,
+TH-02294,OEM_C,Eva Radtke,Tannenweg 33,redacted,22,22.09.2024,connected,optimize,2025-08-02
+TH-02105,A,Gudrun Dettmer,Waldsaum 8,redacted,60,25.05.2024,not_connected,free,2025-04-05
+TH 02208,oem-b,Dieter Oestreich,Schulstraße 81,redacted,30,2023-05-05,unknown,optimize,
+02023,oem a,Kerstin Gebhardt,Schulstraße 82,redacted,44,15.01.2026,connected,optimize,2026-02-06
+TH-02118,A,Heike Kaminski,Mühlenstraße 128,redacted,04,2024-06-08,connected,free,
+TH-02085-1,oem a,Holger Thiemann,Erlenring 5,redacted,40,24.09.2025,connected,optimize,
+th-02048,OEM A,Claudia Ahrens,Dorfstraße 79,redacted,22,01.11.2025,connected,care,2024-09-14
+TH-02015,A,Wiebke Brinkmann,Erlenring 80a,redacted,50,23.01.2025,connected,optimize,
+TH-02153,OEM_B,Ahmet Weinhold,Gartenstraße 23a,redacted,04,01.11.2023,connected,care_plus,2025-04-23
+TH-02165-1,oem-b,Frank Thiemann,Lindenhof 26b,redacted,50,2025-10-23,connected,free,2024-08-17
+TH-02094,OEM A,Kerstin Pfefferle,Buchenkamp 43a,redacted,12,24.11.2024,connected,care,2025-08-28
+TH-02350,oem c,Jörg Weinhold,Birkenallee 95,redacted,70,2023-06-11,not_connected,optimize,2026-04-10
+02263,OEM B,Bogdan Grabowski,Birkenallee 45,redacted,22,19.08.2025,not_connected,free,2026-02-17
+th-02273,OEM B,Thorsten Lindemann,Waldsaum 61a,redacted,10,2025-11-30,connected,care,2024-10-26
+th-02377,OEM_C ,Andreas Oestreich,Pappelweg 67b,redacted,10,26.02.2023,connected,free,
+TH-02367,OEM_C,Jörg Hillebrand,Mühlenstraße 131,redacted,10,2023-02-23,connected,free,
+TH-02318,OEM_C,Volker Lindemann,Feldmark 115,redacted,50,19.11.2023,not_connected,care,
+TH 02354,oem c,Claudia Möllenkamp,Hauptstraße 18,redacted,10,2025-04-29,connected,free,2024-09-10
+TH-02352,OEM_C,Eva Grabowski,Erlenring 111a,redacted,04,06.01.2026,connected,free,
+th-02002,OEM A,Holger Ebeling,Buchenkamp 65b,redacted,10,2026-01-31,connected,optimize,
+  TH-02120 ,A,Bogdan Möllenkamp,Dorfstraße 70a,redacted,50,2026-02-09,connected,care,
+th-02046,oem a,Kerstin Gebhardt,Im Winkel 107,redacted,80,10.09.2024,connected,care,2025-01-19
+TH-02312,oem c,Thorsten Oestreich,Uferstraße 38,redacted,50,2024-08-03,connected,care_plus,2024-07-09
+TH-02227,B,Ulrike Kaminski,Gartenstraße 35,redacted,60,18.01.2026,not_connected,free,2025-09-24
+TH-02116-1,oem a,Ingrid Oberkamp,Buchenkamp 1,redacted,20,2024-09-05,not_connected,free,2025-05-23
+TH-02140,OEM_A,Claudia Dettmer,Birkenallee 18,redacted,30,2023-05-19,connected,free,2026-03-23
+TH-02143,OEM_B,Ingrid Sassenberg,Im Winkel 48,redacted,90,2025-04-25,connected,free,
+TH-02261,B,Sabine Bartels,Gartenstraße 88,redacted,04,2023-08-08,not_connected,care,2024-08-16
+TH-02392,oem c,Ingrid Fährmann,Kirchweg 25,redacted,04,2024-03-28,not_connected,care_plus,
+TH-02337,OEM_C,Petra Bartels,Birkenallee 121,redacted,50,2026-02-01,connected,care,2025-08-08
+th-02319,OEM_C ,Claudia Hillebrand,Erlenring 105,redacted,10,2023-04-26,connected,care,2025-05-08
+02080,OEM A,Jens Fährmann,Erlenring 3,redacted,80,04.01.2024,connected,care,
+TH-02381,OEM_C ,Claudia Brinkmann,Buchenkamp 13b,redacted,60,23.11.2025,connected,optimize,2025-02-07
+  TH-02322 ,OEM_C,Rainer Sassenberg,Schulstraße 6,redacted,80,13.08.2025,connected,care_plus,2025-05-09
+TH 02393,OEM_C ,Bettina Kortmann,Ostpreußenweg 50,redacted,20,2024-05-14,connected,care_plus,2024-11-09
+TH-02301,OEM_C,Lothar Gebhardt,Erlenring 7a,redacted,20,12.08.2023,unknown,optimize,
+02213,OEM B,Wiebke Radtke,Nordring 56b,redacted,13,2023-03-03,connected,care_plus,2025-12-20
+TH-02398,oem c,Dagmar Bartels,Lindenhof 126a,redacted,90,2025-05-15,connected,care_plus,
+  TH-02231 ,OEM_B,Sabine Oberkamp,Ahornweg 48,redacted,10,2025-04-05,connected,care,2025-02-22
+TH-02077,OEM_A,Petra Kaminski,Uferstraße 21,redacted,70,09.04.2024,connected,free,2025-01-15
+02360,C,Dagmar Kortmann,Rosenkamp 26,redacted,20,11.12.2024,connected,optimize,
+TH-02022,OEM_A,Jens Fährmann,Feldmark 105,redacted,30,2023-10-27,not_connected,free,
+th-02316,OEM_C,Holger Sassenberg,Kirchweg 122,redacted,50,2023-11-08,connected,care,2025-07-11
+TH-02212,OEM_B,Christoph Fährmann,Birkenallee 15,redacted,10,2025-08-25,not_connected,free,2025-06-20
+TH-02058,OEM A,Holger Pfefferle,Rosenkamp 4,redacted,40,2025-05-05,not_connected,free,2024-11-15
+TH-02173,OEM_B,Manuela Lindemann,Tannenweg 61a,redacted,70,2023-04-06,connected,optimize,
+02399,OEM_C,Holger Uhlig,Kirchweg 62b,redacted,80,18.03.2024,connected,optimize,2025-01-03
+TH-02396-1,C,Bettina Ahrens,Schulstraße 127a,redacted,60,25.11.2025,connected,optimize,2026-01-03
+02201,OEM B,Manuela Möllenkamp,Nordring 42,redacted,50,2025-11-20,unknown,care,2024-08-26
+TH 02351,oem c,Wiebke Ebeling,Lindenhof 3,redacted,44,22.12.2024,connected,optimize,2025-09-16
+TH-02147,OEM_B,Eva Ebeling,Tannenweg 1,redacted,22,2023-10-12,not_connected,free,
+02238,oem-b,Rainer Ahrens,Im Winkel 138a,redacted,81,2024-12-15,connected,free,
+TH-02091,OEM_A,Jörg Fährmann,Waldsaum 77,redacted,40,2023-09-07,connected,free,2025-03-16
+TH-02356,C,Eva Bartels,Schulstraße 91,redacted,04,13.04.2024,not_connected,care_plus,
+TH-02128,OEM A,Volker Grabowski,Schulstraße 28,redacted,70,16.04.2023,not_connected,care_plus,2025-10-25
+TH-02239,OEM B,Christoph Lindemann,Dorfstraße 8,redacted,70,18.05.2023,connected,care,2025-02-02
+TH-02325,OEM_C,Andreas Gebhardt,Hauptstraße 20,redacted,44,26.03.2025,not_connected,care,2024-12-10
+TH 02132,OEM A,Christoph Weinhold,Erlenring 105,redacted,12,2024-08-26,connected,optimize,
+  TH-02186 ,oem-b,Wiebke Sassenberg,Pappelweg 128b,redacted,70,2025-02-03,not_connected,free,2024-09-14
+TH-02219,oem-b,Petra Fährmann,Pappelweg 133,redacted,44,2025-09-23,not_connected,optimize,2025-06-14
+TH-02285,OEM_B,Christoph Fährmann,Uferstraße 61a,redacted,22,30.04.2024,connected,optimize,2024-07-24
+TH-02104,oem a,Katrin Oberkamp,Tannenweg 86,redacted,22,2024-06-13,not_connected,care,2026-03-05
+TH-02039,A,Manuela Lindemann,Gartenstraße 89,redacted,22,2025-05-09,unknown,free,2025-07-03
+TH-02192,B,Manuela Möllenkamp,Quellenstraße 35,redacted,22,10.10.2025,connected,free,2026-03-09
+  TH-02391 ,OEM_C,Jens Kortmann,Kirchweg 92,redacted,81,13.10.2024,not_connected,care,2026-03-30
+TH-02014,A,Frank Radtke,Ostpreußenweg 21,redacted,80,2023-10-23,not_connected,free,2024-08-08
+  TH-02280 ,OEM_B,Volker Pfefferle,Uferstraße 117a,redacted,90,2025-01-18,connected,free,2026-01-28
+TH-02075,oem a,Wiebke Sassenberg,Ahornweg 60,redacted,22,12.03.2025,connected,optimize,
+TH-02204,oem-b,Katrin Kaminski,Waldsaum 46,redacted,22,21.07.2025,connected,optimize,2026-03-21
+th-02009,oem a,Norbert Gebhardt,Mühlenstraße 137,redacted,60,2023-08-08,connected,care,2025-11-04
+TH-02098,OEM_A,Bogdan Dettmer,Ostpreußenweg 52,redacted,13,2025-04-26,connected,care,2024-12-31
+TH-02123,A,Volker Vollmer,Hauptstraße 55,redacted,30,2023-09-05,unknown,care,2026-02-12
+  TH-02334 ,OEM_C ,Lothar Vollmer,Nordring 41,redacted,22,2023-05-25,not_connected,care,
+TH-02207,OEM B,Gudrun Sassenberg,Dorfstraße 102,redacted,81,2023-05-12,connected,optimize,2026-03-23
+TH-02256,oem-b,Frank Ahrens,Waldsaum 50,redacted,13,2024-05-29,connected,care_plus,2024-08-26
+TH-02169,B,Heike Thiemann,Schulstraße 98,redacted,81,04.06.2024,connected,free,2025-09-23
+TH-02345,OEM_C ,Dieter Sassenberg,Erlenring 101,redacted,60,2024-11-13,connected,optimize,2025-10-23
+TH-02375-1,oem c,Frank Hillebrand,Ostpreußenweg 45,redacted,10,2025-10-23,connected,free,2025-03-14
+th-02361,OEM_C ,Holger Ebeling,Erlenring 93b,redacted,13,2025-03-17,connected,free,
+TH-02224,oem-b,Jörg Lindemann,Birkenallee 51,redacted,80,2025-12-09,connected,optimize,2025-12-09
+TH-02228,OEM B,Dieter Oberkamp,Im Winkel 6,redacted,10,2023-07-10,connected,care,2024-07-28
+TH-02086,oem a,Claudia Niehaus,Ostpreußenweg 132b,redacted,90,26.09.2024,connected,optimize,2025-08-18
+TH-02286,OEM_B,Elke Sassenberg,Tannenweg 108b,redacted,80,2024-04-28,connected,care,2026-01-14
+TH-02234-1,B,Wiebke Pfefferle,Dorfstraße 43a,redacted,90,2024-12-03,connected,free,2025-03-26
+TH-02054,OEM A,Thorsten Grabowski,Feldmark 93,redacted,70,2023-04-28,not_connected,optimize,2025-07-13
+TH-02060,OEM_A,Claudia Ahrens,Tannenweg 137,redacted,80,17.10.2025,not_connected,free,
+TH 02394,C,Heike Dettmer,Nordring 46,redacted,22,23.10.2023,unknown,care,2025-08-20
