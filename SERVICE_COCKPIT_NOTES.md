@@ -4,19 +4,19 @@
 
 ### What is this cockpit for, in one or two sentences, and who is the primary user?
 
-The Service Cockpit is a unified technical investigation dashboard that enables Second Level Support to identify systematic equipment patterns across different manufacturers, determine root causes of alerts and errors, and prepare evidence-based communications with vendor technical teams. The primary user is Second Level Support / Technical Service Engineers who need to move beyond individual unit troubleshooting to address widespread issues like Vendor C's 31.9% alert rate and Vendor B's systematic error code patterns.
+The Service Cockpit is a proactive customer communication tool that identifies units likely to become critical situations, triggers maintenance reminders, and provides reassurance when systems are operating normally—transforming reactive service calls into preventive customer care. The primary user is Second Level Support and Service Technicians who need to reach out to customers before problems escalate, using real-time equipment data to prioritize communications.
 
 ### Which requirements do you take from the raw material above? List them in the order you would build them.
 
-1. **Data unification and reference resolution** - Normalize inconsistent reference numbers, vendor names, and date formats across installation_base and telemetry_daily files to create a single coherent dataset.
-2. **Vendor-specific error code timeline visualization** - Show error code trends by vendor over time to distinguish systematic issues (Vendor B's 6021 code pattern) from random faults.
-3. **Alert severity matrix** - Cross-tabulation of vendor × alert type × frequency to quickly identify which vendor has which types of issues and prioritize investigations.
-4. **Unit deep-dive with historical context** - Time-series charts for problem units compared to peer group averages to validate whether alerts represent real equipment issues versus threshold/sensor problems.
-5. **Temperature relationship analysis** - Flow temp vs return temp vs outdoor temp scatter plots to determine if high-alert units have abnormal operating characteristics.
-6. **Energy consumption distribution by vendor** - Comparative histograms to investigate Vendor B's 15,000 kWh vs Vendor A's 2-6 kWh measurement discrepancy.
-7. **Data quality dashboard** - Monitor connected units with no data, missing fields by vendor, and data freshness to identify communication failures versus integration issues.
+1. **Data unification and reference resolution** - Normalize inconsistent reference numbers, vendor names, and date formats across installation_base and telemetry_daily files to create a single coherent dataset for customer-specific monitoring.
+2. **Critical situation identification** - Flag units with immediate issues like Vendor C's high alert rate (31.9%), low domestic hot water temperatures (<40°C), or frequent error codes for proactive customer outreach.
+3. **Predictive risk scoring** - Identify units likely to become critical based on patterns like high compressor starts, temperature anomalies, or declining performance trends to enable preventive communication.
+4. **Maintenance scheduling queue** - Generate prioritized lists for customers overdue for service (>6 months) or never serviced, with automatic reminder scheduling based on service tier and commissioning date.
+5. **Customer communication templates** - Pre-written, personalized messages for different scenarios (critical alerts, maintenance reminders, normal operation reassurance) with unit-specific data automatically inserted.
+6. **Unit status dashboard** - Simple view showing customer name, current equipment status, key metrics (temperatures, energy consumption), and recommended action for quick communication decisions.
+7. **Communication history tracking** - Log all customer interactions, link communications to subsequent service visits, and track effectiveness in preventing emergency calls.
 
 ### What did you deliberately leave out, and why?
 
-Left out the broader service planning features (morning list for technicians, customer communication tools, subcontractor access) because the analysis reveals that Second Level Support needs to first solve the systematic vendor-specific issues before the service organization can effectively use unit-level data for dispatch decisions. Also omitted advanced remote actions (restart, settings changes) as these require resolving the current data quality and interpretation challenges—particularly the unclear error codes and measurement unit differences between vendors. The cockpit must first establish what "normal" operation looks like for each manufacturer before enabling remote interventions.
+Left out deep technical investigation features like vendor-specific error code analysis and energy consumption distribution studies because the primary goal is customer communication, not root cause analysis. Also omitted advanced remote actions (restart, settings changes) as these require resolving current data quality challenges first. The focus is on using available data to identify which customers need attention now, not solving the underlying vendor data standardization issues—that can come later once the customer communication workflow is proven.
 
