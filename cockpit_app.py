@@ -69,8 +69,8 @@ def main():
     medium_count = df[df['priority_level'] == 'Medium'].shape[0]
     normal_count = df[df['priority_level'] == 'Normal'].shape[0]
     
-    # Key metrics dashboard
-    col1, col2, col3, col4, col5 = st.columns(5)
+    # Key metrics dashboard - First row
+    col1, col2 = st.columns(2)
     
     with col1:
         st.metric("Total Units", total_units)
@@ -78,14 +78,20 @@ def main():
     with col2:
         st.metric("Connected", f"{connected_units} ({connected_units/total_units*100:.0f}%)")
     
-    with col3:
+    # Key metrics dashboard - Second row (priority counts)
+    col1, col2, col3, col4 = st.columns(4)
+    
+    with col1:
         st.metric("🔴 Critical", critical_count, delta_color="inverse")
     
-    with col4:
+    with col2:
         st.metric("🟡 High", high_count)
     
-    with col5:
+    with col3:
         st.metric("🟠 Medium", medium_count)
+    
+    with col4:
+        st.metric("🟢 Normal", normal_count)
     
     st.markdown("---")
     
@@ -117,6 +123,12 @@ def main():
         default=['All']
     )
     
+    service_tier_filter = st.sidebar.multiselect(
+        "Filter by Service Tier",
+        options=['All'] + sorted(df['service_tier'].unique()),
+        default=['All']
+    )
+    
     # Apply filters
     filtered_df = df.copy()
     
@@ -128,6 +140,9 @@ def main():
     
     if 'All' not in connectivity_filter:
         filtered_df = filtered_df[filtered_df['connectivity'].isin(connectivity_filter)]
+    
+    if 'All' not in service_tier_filter:
+        filtered_df = filtered_df[filtered_df['service_tier'].isin(service_tier_filter)]
     
     # Main content based on selected view
     if view == "Priority Action List":
@@ -156,18 +171,6 @@ def display_priority_list(df):
             df_sorted['reference_number'].str.contains(search_term, case=False, na=False)
         ]
     
-    # Priority breakdown (numbers only)
-    critical_count = len(df_sorted[df_sorted['priority_level'] == 'Critical'])
-    high_count = len(df_sorted[df_sorted['priority_level'] == 'High'])
-    medium_count = len(df_sorted[df_sorted['priority_level'] == 'Medium'])
-    normal_count = len(df_sorted[df_sorted['priority_level'] == 'Normal'])
-    
-    col1, col2, col3, col4 = st.columns(4)
-    col1.metric("🔴 Critical", critical_count)
-    col2.metric("🟡 High", high_count)
-    col3.metric("🟠 Medium", medium_count)
-    col4.metric("🟢 Normal", normal_count)
-    
     st.markdown("---")
     
     # Detailed table with actions
@@ -175,37 +178,37 @@ def display_priority_list(df):
     
     # Select columns to display
     display_columns = [
-        'reference_number', 'customer_name', 'vendor', 'priority_level', 'priority_score', 
-        'priority_reasons', 'connectivity', 'service_tier'
+        'reference_number', 'customer_name', 'service_tier', 'vendor', 'priority_level', 'priority_score', 
+        'priority_reasons', 'connectivity'
     ]
     
     # Rename columns for display
     column_renames = {
         'reference_number': 'Reference',
         'customer_name': 'Customer',
+        'service_tier': 'Service Tier',
         'vendor': 'Vendor',
         'priority_level': 'Priority',
         'priority_score': 'Score',
         'priority_reasons': 'Reasons',
-        'connectivity': 'Connectivity',
-        'service_tier': 'Service Tier'
+        'connectivity': 'Connectivity'
     }
     
     display_df = df_sorted[display_columns].copy()
     display_df.columns = [column_renames.get(col, col) for col in display_df.columns]
     
-    # Add action column with icons
-    def get_action_icon(priority):
+    # Add action column with colored rectangles
+    def get_action_color(priority):
         if priority == 'Critical':
-            return '🚨 Call Immediately'
+            return '🟥 Call'
         elif priority == 'High':
-            return '📞 Schedule This Week'
+            return '🟧 Schedule'
         elif priority == 'Medium':
-            return '📅 Monitor/Schedule'
+            return '🟨 Monitor'
         else:
-            return '✅ No Action'
+            return '🟩 OK'
     
-    display_df['Action'] = display_df['Priority'].apply(get_action_icon)
+    display_df['Action'] = display_df['Priority'].apply(get_action_color)
     
     # Reorder columns to put Action first
     cols = display_df.columns.tolist()
@@ -234,37 +237,200 @@ def display_priority_list(df):
         else:  # free
             return 'background-color: #f1f5f9; color: #475569'
     
+    # Color coding for connectivity
+    def color_connectivity(val):
+        if val == 'connected':
+            return 'background-color: #dcfce7; color: #166534'
+        elif val == 'not_connected':
+            return 'background-color: #fee2e2; color: #991b1b'
+        else:  # unknown
+            return 'background-color: #fef9c3; color: #854d0e'
+    
     styled_df = display_df.style.map(color_priority, subset=['Priority'])
     styled_df = styled_df.map(color_service_tier, subset=['Service Tier'])
+    styled_df = styled_df.map(color_connectivity, subset=['Connectivity'])
     
     st.dataframe(styled_df, width='stretch', hide_index=True)
     
-    # Legend
+    # Customer selection for details
     st.markdown("---")
-    st.subheader("Legend")
+    st.subheader("Customer Details")
     
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        st.markdown("**Priority Levels:**")
-        st.markdown("� **Critical** - Immediate attention required")
-        st.markdown("🟡 **High** - Attention this week")
-        st.markdown("🟠 **Medium** - Monitor/Schedule")
-        st.markdown("🟢 **Normal** - Operating normally")
-    
-    with col2:
-        st.markdown("**Service Tiers:**")
-        st.markdown("� **Care Plus** - Premium service")
-        st.markdown("💙 **Care** - Standard maintenance")
-        st.markdown("💚 **Optimize** - Performance focused")
-        st.markdown("🤍 **Free** - Basic service")
-    
-    with col3:
-        st.markdown("**Actions:**")
-        st.markdown("🚨 **Call Immediately** - Emergency")
-        st.markdown("📞 **Schedule This Week** - Urgent")
-        st.markdown("📅 **Monitor/Schedule** - Preventive")
-        st.markdown("✅ **No Action** - Normal operation")
+    if len(df_sorted) > 0:
+        # Select customer to view details
+        selected_customer = st.selectbox(
+            "Select customer to view details (from table above)",
+            options=df_sorted['customer_name'].tolist(),
+            index=0 if len(df_sorted) > 0 else None
+        )
+        
+        if selected_customer:
+            customer_data = df_sorted[df_sorted['customer_name'] == selected_customer].iloc[0]
+            
+            # Show customer details
+            with st.expander("🔍 Customer Details", expanded=True):
+                st.markdown(f"**Customer:** {customer_data['customer_name']}")
+                st.markdown(f"**Reference:** {customer_data['reference_number']}")
+                st.markdown(f"**Vendor:** {customer_data['vendor']}")
+                st.markdown(f"**Address:** {customer_data['street_address']}")
+                st.markdown(f"**Phone:** {customer_data['contact_phone']}")
+                st.markdown(f"**Postcode:** {customer_data['postcode_region']}")
+                st.markdown(f"**Connectivity:** {customer_data['connectivity']}")
+                st.markdown(f"**Service Tier:** {customer_data['service_tier']}")
+                
+                if pd.notna(customer_data['parsed_commissioning']):
+                    st.markdown(f"**Commissioning Date:** {customer_data['parsed_commissioning'].strftime('%Y-%m-%d')}")
+                
+                if pd.notna(customer_data['parsed_last_visit']):
+                    st.markdown(f"**Last Service Visit:** {customer_data['parsed_last_visit'].strftime('%Y-%m-%d')}")
+                
+                st.markdown("---")
+                st.markdown("### Telemetry Data")
+                
+                if pd.notna(customer_data['avg_outdoor_temp']):
+                    st.markdown(f"**Outdoor Temperature:** {customer_data['avg_outdoor_temp']:.1f}°C")
+                
+                if pd.notna(customer_data['avg_flow_temp']):
+                    st.markdown(f"**Flow Temperature:** {customer_data['avg_flow_temp']:.1f}°C")
+                
+                if pd.notna(customer_data['avg_return_temp']):
+                    st.markdown(f"**Return Temperature:** {customer_data['avg_return_temp']:.1f}°C")
+                
+                if pd.notna(customer_data['avg_dhw_temp']):
+                    st.markdown(f"**DHW Temperature:** {customer_data['avg_dhw_temp']:.1f}°C")
+                
+                if pd.notna(customer_data['avg_electrical_kwh']):
+                    st.markdown(f"**Electrical Energy:** {customer_data['avg_electrical_kwh']:.2f} kWh")
+                
+                if pd.notna(customer_data['avg_thermal_kwh']):
+                    st.markdown(f"**Thermal Energy:** {customer_data['avg_thermal_kwh']:.2f} kWh")
+                
+                if pd.notna(customer_data['avg_compressor_starts']):
+                    st.markdown(f"**Compressor Starts:** {customer_data['avg_compressor_starts']:.1f}")
+                
+                if pd.notna(customer_data['error_count']):
+                    st.markdown(f"**Error Count:** {customer_data['error_count']:.0f}")
+                
+                if pd.notna(customer_data['warn_count']):
+                    st.markdown(f"**Warning Count:** {customer_data['warn_count']:.0f}")
+                
+                if pd.notna(customer_data['reading_count']):
+                    st.markdown(f"**Data Points:** {customer_data['reading_count']:.0f}")
+            
+            # Handle actions
+            st.markdown("---")
+            st.markdown("### Select Action")
+            
+            action = st.radio(
+                "Choose action:",
+                ["📞 Call Customer", "📅 Schedule Visit", "✉️ Send Monitor Email"]
+            )
+            
+            if action == "📞 Call Customer":
+                st.markdown("### 📞 Call Details")
+                st.markdown(f"**Customer:** {customer_data['customer_name']}")
+                st.markdown(f"**Reference:** {customer_data['reference_number']}")
+                st.markdown(f"**Issue:** {customer_data['priority_reasons']}")
+                st.markdown(f"**Vendor:** {customer_data['vendor']}")
+                st.markdown(f"**Service Tier:** {customer_data['service_tier']}")
+                st.success(f"Call initiated to {customer_data['customer_name']}")
+                st.info("In production, this would integrate with your phone system")
+            
+            elif action == "📅 Schedule Visit":
+                st.markdown("### 📅 Schedule Service Visit")
+                
+                col1, col2 = st.columns(2)
+                
+                with col1:
+                    visit_date = st.date_input("Select visit date")
+                    visit_time = st.time_input("Select visit time")
+                
+                with col2:
+                    st.markdown(f"**Customer:** {customer_data['customer_name']}")
+                    st.markdown(f"**Reference:** {customer_data['reference_number']}")
+                    st.markdown(f"**Issue:** {customer_data['priority_reasons']}")
+                    st.markdown(f"**Vendor:** {customer_data['vendor']}")
+                    st.markdown(f"**Service Tier:** {customer_data['service_tier']}")
+                
+                if st.button("📅 Confirm Schedule"):
+                    st.success(f"Visit scheduled for {visit_date} at {visit_time}")
+                    st.info("Call dialog would open with customer details")
+            
+            elif action == "✉️ Send Monitor Email":
+                st.markdown("### ✉️ Send Monitoring Email")
+                
+                # Adapt email template based on priority
+                if customer_data['priority_level'] == 'Critical':
+                    email_template = f"""Subject: URGENT: Heat pump issue detected - Immediate attention required
+
+Dear {customer_data['customer_name']},
+
+Our monitoring system has detected a critical issue with your heat pump that requires immediate attention.
+
+Issue: {customer_data['priority_reasons']}
+Priority: CRITICAL
+Reference: {customer_data['reference_number']}
+Vendor: {customer_data['vendor']}
+
+Please contact our service hotline immediately to schedule an emergency visit, or we will proactively reach out to you within 24 hours.
+
+Your service team
+"""
+                elif customer_data['priority_level'] == 'High':
+                    email_template = f"""Subject: Heat pump issue detected - Attention required this week
+
+Dear {customer_data['customer_name']},
+
+Our monitoring system has detected an issue with your heat pump that should be addressed soon.
+
+Issue: {customer_data['priority_reasons']}
+Priority: HIGH
+Reference: {customer_data['reference_number']}
+Vendor: {customer_data['vendor']}
+
+We recommend scheduling a preventive maintenance visit this week to prevent potential problems. Would you like us to schedule this for you?
+
+Your service team
+"""
+                elif customer_data['priority_level'] == 'Medium':
+                    email_template = f"""Subject: Heat pump maintenance reminder
+
+Dear {customer_data['customer_name']},
+
+This is a friendly reminder that your heat pump is due for scheduled maintenance.
+
+Issue: {customer_data['priority_reasons']}
+Priority: MEDIUM
+Reference: {customer_data['reference_number']}
+Vendor: {customer_data['vendor']}
+
+Regular maintenance helps ensure reliable operation and prevents unexpected issues. Would you like to schedule a visit?
+
+Your service team
+"""
+                else:  # Normal
+                    email_template = f"""Subject: Your heat pump status update
+
+Dear {customer_data['customer_name']},
+
+Our monitoring system shows your heat pump is operating normally.
+
+Current status: All systems functioning correctly
+Temperature readings: Within expected range
+No alerts detected
+Reference: {customer_data['reference_number']}
+Vendor: {customer_data['vendor']}
+
+No action is required at this time. We'll continue monitoring your system and will reach out if any issues arise.
+
+Your service team
+"""
+                
+                st.text_area("Email Template", email_template, height=200)
+                
+                if st.button("✉️ Send Email"):
+                    st.success(f"Email sent to {customer_data['customer_name']}")
+                    st.info("In production, this would integrate with your email system")
 
 def display_unit_status(df):
     """Display unit status dashboard"""
@@ -283,6 +449,7 @@ def display_unit_status(df):
     display_columns = [
         'reference_number', 'customer_name', 'vendor', 'connectivity',
         'avg_flow_temp', 'avg_return_temp', 'avg_dhw_temp',
+        'avg_electrical_kwh', 'avg_thermal_kwh',
         'error_count', 'warn_count', 'priority_level'
     ]
     
@@ -301,6 +468,8 @@ def display_unit_status(df):
             'avg_flow_temp': 'Flow Temp (°C)',
             'avg_return_temp': 'Return Temp (°C)',
             'avg_dhw_temp': 'DHW Temp (°C)',
+            'avg_electrical_kwh': 'Electrical (kWh)',
+            'avg_thermal_kwh': 'Thermal (kWh)',
             'error_count': 'Errors',
             'warn_count': 'Warnings',
             'priority_level': 'Priority'
